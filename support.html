@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Help and support for LITHRA, the offline gym and workout log for iPhone.">
+  <title>Support — LITHRA</title>
+  <style>
+    :root { color-scheme: dark; --background:#101316; --surface:#181c20; --text:#f5f2ea; --muted:#b2b7ba; --accent:#72d6a0; --border:#343a40; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--background); color:var(--text); font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; font-size:17px; line-height:1.65; }
+    main { width:min(760px,calc(100% - 40px)); margin:auto; padding:56px 0 72px; }
+    nav { display:flex; flex-wrap:wrap; gap:12px 24px; align-items:center; }
+    .brand { font-weight:750; letter-spacing:.12em; color:var(--text); }
+    h1 { font-size:clamp(2.5rem,8vw,4rem); letter-spacing:-.045em; line-height:1.05; margin:44px 0 16px; }
+    h2 { margin:0 0 12px; font-size:1.35rem; line-height:1.3; }
+    p,li { color:var(--muted); }
+    a { color:var(--accent); text-underline-offset:4px; overflow-wrap:anywhere; }
+    a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:5px; }
+    .contact { margin:30px 0; padding:24px; border:1px solid var(--border); border-radius:20px; background:var(--surface); }
+    .contact a { display:inline-block; padding:8px 0; font-weight:650; }
+    details { border-bottom:1px solid var(--border); padding:0 4px; }
+    summary { cursor:pointer; padding:20px 0; font-weight:650; }
+    details p { margin:0 0 20px; }
+    footer { border-top:1px solid var(--border); margin-top:48px; padding-top:24px; color:var(--muted); font-size:.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <nav aria-label="Site navigation"><span class="brand">LITHRA</span><a href="https://tastiestemperor.github.io/lithra/privacypolicy.html">Privacy policy</a></nav>
+    <h1>Here to help.</h1>
+    <p>Support for LITHRA: Gym &amp; Workout Log on iPhone.</p>
+    <section class="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact support</h2>
+      <p>Found a bug, have a question or want to suggest a feature? Email us.</p>
+      <a href="mailto:support@abgw.ae">support@abgw.ae</a>
+      <p>Include your iPhone model, iOS version, LITHRA version (at the bottom of Settings), and the steps that led to the issue. Screenshots can help. Please leave out body measurements, health records, private notes and other sensitive information unless needed for your request.</p>
+    </section>
+    <h2>Troubleshooting</h2>
+    <details><summary>The app is slow or unresponsive</summary>
+      <p>Close and reopen LITHRA, then check for an app update. Restart your iPhone if the issue continues. Do not delete the app as a troubleshooting step: your routines, history and measurements are stored locally and may be lost. Contact support if startup remains stuck.</p>
+    </details>
+    <details><summary>My workout is not appearing in Apple Health</summary>
+      <p>In LITHRA Settings, enable Save to Apple Health and allow the requested permissions. Check LITHRA’s permissions in the Health app or iPhone privacy settings. Workouts are saved when completed; enabling access does not import your existing Health data into LITHRA. If a completed workout is missing, contact support with any error message shown.</p>
+    </details>
+    <details><summary>I am not receiving workout reminders</summary>
+      <p>Enable Workout reminders in LITHRA Settings and allow notifications in iPhone Settings. Check whether Pause / Holiday mode is active. Focus, notification summaries and other iPhone settings can silence or delay alerts. Reminders depend on recent training activity, so enabling them does not necessarily produce an immediate notification.</p>
+    </details>
+    <details><summary>The Lock Screen workout or timer is missing</summary>
+      <p>Enable Live Activity in LITHRA Settings, check that Live Activities are allowed for LITHRA in iPhone Settings, and start a workout. Reopen LITHRA to check the active session if the display looks out of date. Your iPhone may require unlocking before allowing a workout action.</p>
+    </details>
+    <details><summary>A shared routine will not import</summary>
+      <p>Import a LITHRA routine pack using Settings → Import Routine Pack. A workout-history CSV is an export for viewing your records, not a routine pack. If a pack fails, ask the sender to export it again using an up-to-date version of LITHRA. Contact support if the issue continues.</p>
+    </details>
+    <details><summary>Where is my data, and can support recover it?</summary>
+      <p>LITHRA has no account or developer-operated server holding your workout data. We cannot recover records from our servers. Device backup availability depends on your Apple settings. Share Routines exports selected routine templates; Export History as CSV exports workout records. These exports are not a complete backup or restore of the app, and routine packs do not include body measurements.</p>
+    </details>
+    <details><summary>How do I manage or remove my data?</summary>
+      <p>Use the available editing and deletion controls in LITHRA. Deleting the app removes its local app data; copies may remain in device backups or files you exported. Records saved to Apple Health are managed separately in Health. Review our <a href="https://tastiestemperor.github.io/lithra/privacypolicy.html">privacy policy</a> for details.</p>
+    </details>
+    <footer>LITHRA · <a href="https://tastiestemperor.github.io/lithra/privacypolicy.html">Privacy policy</a> · <a href="mailto:support@abgw.ae">Contact support</a></footer>
+  </main>
+</body>
+</html>
